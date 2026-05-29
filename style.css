@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: auto;
+    height: 400px;
+    flex-direction: column;
+    background-color: #ACACAC;
+}
+
+.container button {
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.container button.operator,
+.container button.equal,
+.container button.clear {
+    background-color: yellow;
+}
+
+
+
